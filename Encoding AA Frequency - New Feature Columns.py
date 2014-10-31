@@ -6,11 +6,12 @@
 #import some standard libraries
 
 import matplotlib.pyplot as plt
-get_ipython().magic(u'matplotlib inline')
+# get_ipython().magic(u'matplotlib inline')
 import numpy as np
 import pandas as pd
 from pandas import Series, DataFrame
 from sklearn import datasets, svm
+from patsy import dmatrices
 
 
 
@@ -106,10 +107,8 @@ for index, row in df.iterrows():
 # In[198]:
 
 # write output
-df.to_csv("E:\\Dropbox\\Kaggle\\HIV\\new_acid_columns.csv")
+#df.to_csv("E:\\Dropbox\\Kaggle\\HIV\\new_acid_columns.csv")
 
 
 # In[198]:
-
-
 
