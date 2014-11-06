@@ -5,7 +5,7 @@ There are two files for use with building the models. These are based on the ori
 
 * train_freq_columns.csv   
 
-* train_freq_columns.csv   
+* test_freq_columns.csv   
 
 ##Building models in R
 Once you have these files, the following R files will allow you to build a model. Please read through the model building examples and look at the help documentation for rpart() and randomForest(). There are additional paramters you can try and tweak, and see if you can improve the score(s).

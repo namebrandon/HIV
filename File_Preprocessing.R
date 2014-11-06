@@ -1,11 +1,11 @@
 #set working direction - CHANGE THIS FOR YOUR LOCATIONS!!
-setwd("E:/Dropbox/Kaggle/HIV/Adam/")
+setwd("E:/your_path_here/")
 
 #Read in test data
-test <- read.csv("adam_script_test_no_response_column_new_columns.csv", stringsAsFactors=FALSE)
+test <- read.csv("test_freq_columns.csv", stringsAsFactors=FALSE)
 
 #Read in training data
-train <- read.csv("adam_script_train_new_columns.csv", stringsAsFactors=FALSE)
+train <- read.csv("train_freq_columns.csv", stringsAsFactors=FALSE)
 
 #convert Response column to factor
 train['Resp'] <- lapply(train['Resp'],as.character)
