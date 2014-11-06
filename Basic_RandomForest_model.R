@@ -7,7 +7,7 @@ setwd("E:/your_path_here/")
 library('randomForest')
 
 #fit our model
-# - For some reason using the formula variabel causes and error, so I just hard-coded this formula
+# - For some reason using the formula variable causes an error, so I just hard-coded this formula
 
 fit.rf <- randomForest(Resp ~ VL.t0 + CD4.t0 + PR.A + PR.B + PR.C + PR.D + PR.E + PR.F + PR.G
                        + PR.H + PR.I + PR.K + PR.L + PR.M + PR.N + PR.P + PR.Q + PR.S + PR.T
