@@ -1,3 +1,5 @@
 
 .ipynb_checkpoints/*.ipynb
 zz*.*
+train_converted.csv
+train_converted_na_removed.csv
